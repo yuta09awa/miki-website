@@ -1,0 +1,432 @@
+{
+  "matched": [
+    {
+      "file": "1-Adamantanecarboxylic acid.png",
+      "product": "1-Adamantanecarboxylic acid",
+      "method": "productCode",
+      "assetId": "image-fd7554c96f0d94975899e052f9517bf00c27f7cc-500x397-png"
+    },
+    {
+      "file": "Adamantane.png",
+      "product": "Adamantane",
+      "method": "productCode",
+      "assetId": "image-e114d076afd294e26e2660cb8ccbf8e19f45d2fd-500x459-png"
+    },
+    {
+      "file": "Glycerine Monoally.png",
+      "product": "Glycerine Monoally",
+      "method": "productCode",
+      "assetId": "image-7e54aabd95a2eb375419d735915e254dd437c031-500x185-png"
+    },
+    {
+      "file": "4-Methylhexahydrophthalic anhydride.png",
+      "product": "4-Methylhexahydrophthalic anhydride",
+      "method": "productCode",
+      "assetId": "image-70c4b614e8151c15bc5792a4a1c9f319495f1cf8-500x424-png"
+    },
+    {
+      "file": "4-PEPA.png",
+      "product": "4-PEPA",
+      "method": "productCode",
+      "assetId": "image-77e305d0dde7f8f5f528fe87bf3f91df71577fb6-500x237-png"
+    },
+    {
+      "file": "a-ODPA.png",
+      "product": "a-ODPA",
+      "method": "productCode",
+      "assetId": "image-9d5b3e18e473bb2d30aa0f5e37bd883d2b88de2d-500x339-png"
+    },
+    {
+      "file": "BPAF.png",
+      "product": "BPAF",
+      "method": "productCode",
+      "assetId": "image-9503a2fcb7ad2c4749544d85acb34433dd96bc2c-500x467-png"
+    },
+    {
+      "file": "BPF-PA.png",
+      "product": "BPF-PA",
+      "method": "productCode",
+      "assetId": "image-4306d82b2b8b360b2af5c5c7633c9fbd76297926-500x321-png"
+    },
+    {
+      "file": "BT-100.png",
+      "product": "BT-100",
+      "method": "productCode",
+      "assetId": "image-aa2cdfe4e9913275ab94fe79ecba774865a9b8e0-500x367-png"
+    },
+    {
+      "file": "HHPA.png",
+      "product": "HHPA",
+      "method": "productCode",
+      "assetId": "image-683fa8491a3f927121ba47e90ebcb56a9d5f49ab-500x529-png"
+    },
+    {
+      "file": "PA.png",
+      "product": "PA",
+      "method": "productCode",
+      "assetId": "image-06484de9066294f71b08a36584cf0f5e04e3e6d5-500x529-png"
+    },
+    {
+      "file": "TAHQ.png",
+      "product": "TAHQ",
+      "method": "productCode",
+      "assetId": "image-634612141b70fc13c1b90ea3d3a3b1b52043a926-500x265-png"
+    },
+    {
+      "file": "TDA-100.png",
+      "product": "TDA-100",
+      "method": "productCode",
+      "assetId": "image-bcd57f16a491877f4118a4752e6bcfbfbca5b9da-500x400-png"
+    },
+    {
+      "file": "THPA.png",
+      "product": "THPA",
+      "method": "productCode",
+      "assetId": "image-9869c267b0c3c96557d43d7b335bb9658d77fc16-500x529-png"
+    },
+    {
+      "file": "TMEG-100.png",
+      "product": "TMEG-100",
+      "method": "productCode",
+      "assetId": "image-0cdc76c07b06fea2ef64b10713cda5ca7a4ba3f9-500x593-png"
+    },
+    {
+      "file": "BisA-M.png",
+      "product": "BisA-M",
+      "method": "productCode",
+      "assetId": "image-9084fe1e0c348884d9ad5d44feb0b5ed44bf186c-500x165-png"
+    },
+    {
+      "file": "BisA-P.png",
+      "product": "BisA-P",
+      "method": "productCode",
+      "assetId": "image-ab1d0dcfdc97372fc897011de15ae227a7e6c354-500x202-png"
+    },
+    {
+      "file": "BMI-7000.png",
+      "product": "BMI-7000",
+      "method": "productCode",
+      "assetId": "image-42ce625f42ae9d20951233a9b4873a225ecce9d9-500x330-png"
+    },
+    {
+      "file": "3-Chloropropene.png",
+      "product": "3-Chloropropene",
+      "method": "productCode",
+      "assetId": "image-ac892870b584770491e634fc3af058a4ef698b11-500x247-png"
+    },
+    {
+      "file": "DEG.png",
+      "product": "DEG",
+      "method": "productCode",
+      "assetId": "image-0f5ec0eddb6a203a4495b9533228e47a0d8184ca-500x122-png"
+    },
+    {
+      "file": "MEG.png",
+      "product": "MEG",
+      "method": "productCode",
+      "assetId": "image-2ffd27b2b01f0c70e032d7741aa2c1a51fcb257e-500x210-png"
+    },
+    {
+      "file": "TEG.png",
+      "product": "TEG",
+      "method": "productCode",
+      "assetId": "image-68f69c0e2d976aab72bf6025c1d2f85537bdcb7f-500x86-png"
+    },
+    {
+      "file": "2386-87-0.png",
+      "product": "2386-87-0",
+      "method": "productCode",
+      "assetId": "image-b4a7dd6137bc1c4c16bdac1c7cb9d2c3b7b17ecb-500x212-png"
+    },
+    {
+      "file": "29829-07-0.png",
+      "product": "29829-07-0",
+      "method": "productCode",
+      "assetId": "image-6e2b70b611b1a884f243af1b154afccf5c733782-500x293-png"
+    },
+    {
+      "file": "E201.png",
+      "product": "E201",
+      "method": "productCode",
+      "assetId": "image-dbe34a7ee479ff09b7181e06fc9388f4c5f06ce1-500x514-png"
+    },
+    {
+      "file": "TGMAP.png",
+      "product": "TGMAP",
+      "method": "productCode",
+      "assetId": "image-a8e216ad6150f14edc02e3f6692f5e8082831025-500x340-png"
+    },
+    {
+      "file": "TGPAP.png",
+      "product": "TGPAP",
+      "method": "productCode",
+      "assetId": "image-383c87aa94966729d056ac06bebae054c32187dd-500x277-png"
+    },
+    {
+      "file": "BAFL.png",
+      "product": "BAFL",
+      "method": "productCode",
+      "assetId": "image-2f16331b15acf1d43087d0840f8106128583edfe-500x509-png"
+    },
+    {
+      "file": "BAHF.png",
+      "product": "BAHF",
+      "method": "productCode",
+      "assetId": "image-a44239c574c06774554b0abf24f9b76c60c90304-500x518-png"
+    },
+    {
+      "file": "BAOFL.png",
+      "product": "BAOFL",
+      "method": "productCode",
+      "assetId": "image-3fdb0fc0833788496987661a48b5c1b6aa6680b0-500x267-png"
+    },
+    {
+      "file": "BAPF.png",
+      "product": "BAPF",
+      "method": "productCode",
+      "assetId": "image-ffb02f840bf5502107805bb61ced0de64a76a59b-500x345-png"
+    },
+    {
+      "file": "BPAF.png",
+      "product": "BPAF",
+      "method": "productCode",
+      "assetId": "image-9503a2fcb7ad2c4749544d85acb34433dd96bc2c-500x467-png"
+    },
+    {
+      "file": "Biphenylyl methacrylate.png",
+      "product": "Biphenylyl methacrylate",
+      "method": "productCode",
+      "assetId": "image-42fe3b74a4ecb4fc06cee5714aa9d93a2a236652-500x955-png"
+    },
+    {
+      "file": "CTFMA.png",
+      "product": "CTFMA",
+      "method": "productCode",
+      "assetId": "image-86e6c56c17596194a5b242da67adce7e748e091b-500x311-png"
+    },
+    {
+      "file": "Glycerol carbonate methacrylate.png",
+      "product": "Glycerol carbonate methacrylate",
+      "method": "productCode",
+      "assetId": "image-94a7ce1bdd39810014b9363aebb8d4adb40670e5-500x256-png"
+    },
+    {
+      "file": "GMEC.png",
+      "product": "GMEC",
+      "method": "productCode",
+      "assetId": "image-94a7ce1bdd39810014b9363aebb8d4adb40670e5-500x256-png"
+    },
+    {
+      "file": "MMA.png",
+      "product": "MMA",
+      "method": "productCode",
+      "assetId": "image-0219ebbc0b1655f8791891c2c6da3b54eb3d24d1-500x455-png"
+    },
+    {
+      "file": "DAIP-M.png",
+      "product": "DAIP-M",
+      "method": "productCode",
+      "assetId": "image-0d37214708f0d574fa0fd38356febfd2588c94d2-500x182-png"
+    },
+    {
+      "file": "DAIP-Prepolymer.png",
+      "product": "DAIP-Prepolymer",
+      "method": "productCode",
+      "assetId": "image-0d37214708f0d574fa0fd38356febfd2588c94d2-500x182-png"
+    },
+    {
+      "file": "DAP-Prepolymer.png",
+      "product": "DAP-Prepolymer",
+      "method": "productCode",
+      "assetId": "image-4488a16e7e3f3a0610f2c43c4a237f4e34c466ac-500x310-png"
+    },
+    {
+      "file": "DEmT.png",
+      "product": "DEmT",
+      "method": "productCode",
+      "assetId": "image-cc9b5940e1dcf4f7f41d2122d9b5b31a5bb96654-500x392-png"
+    },
+    {
+      "file": "DMpT.png",
+      "product": "DMpT",
+      "method": "productCode",
+      "assetId": "image-d16897e0a52b6489d7cee7044f3bc752a84c9119-500x262-png"
+    },
+    {
+      "file": "EmT.png",
+      "product": "EmT",
+      "method": "productCode",
+      "assetId": "image-2155a01dbae1048649735aecde780a9095a4cfa7-500x296-png"
+    },
+    {
+      "file": "EoT.png",
+      "product": "EoT",
+      "method": "productCode",
+      "assetId": "image-5a3b64a6495980a6d730a31c2c3f961158c60152-500x352-png"
+    }
+  ],
+  "skipped": [
+    {
+      "file": "1-Methylheptyl acrylate(C8).png",
+      "product": "1-Methylheptyl acrylate(C8)",
+      "reason": "has images"
+    },
+    {
+      "file": "Allyl Acrylate.png",
+      "product": "Allyl Acrylate",
+      "reason": "has images"
+    },
+    {
+      "file": "BAC-45.png",
+      "product": "Hydroxy-terminated polybutadiene diacrylate",
+      "reason": "has images"
+    },
+    {
+      "file": "Biphenylyl acrylate.png",
+      "product": "Biphenylyl acrylate",
+      "reason": "has images"
+    },
+    {
+      "file": "Isocetyl acrylate(C16).png",
+      "product": "Isocetyl acrylate(C16)",
+      "reason": "has images"
+    },
+    {
+      "file": "n-Hexyl acrylate(C6).png",
+      "product": "n-Hexyl acrylate",
+      "reason": "has images"
+    },
+    {
+      "file": "Phenyl acrylate.png",
+      "product": "Phenyl acrylate",
+      "reason": "has images"
+    },
+    {
+      "file": "Photo-initiator acrylate.png",
+      "product": "Photo-initiator acrylate",
+      "reason": "has images"
+    },
+    {
+      "file": "AGE.png",
+      "product": "Allyl Glycidyl Ether",
+      "reason": "has images"
+    },
+    {
+      "file": "DADMAC.png",
+      "product": "Diallyl Dimethyl Ammonium Chloride",
+      "reason": "has images"
+    },
+    {
+      "file": "PETE.png",
+      "product": "Pentaerythritol Triallyl Ether",
+      "reason": "has images"
+    },
+    {
+      "file": "Trimethylolpropane diallyl ether.png",
+      "product": "Trimethylolpropane diallyl ether",
+      "reason": "has images"
+    },
+    {
+      "file": "6FDA.png",
+      "product": "6FDA",
+      "reason": "has images"
+    },
+    {
+      "file": "a-BPDA.png",
+      "product": "a-BPDA",
+      "reason": "has images"
+    },
+    {
+      "file": "ODPA.png",
+      "product": "ODPA",
+      "reason": "has images"
+    },
+    {
+      "file": "s-BPDA.png",
+      "product": "s-BPDA",
+      "reason": "has images"
+    },
+    {
+      "file": "4,4 ODA.png",
+      "product": "4,4'-ODA",
+      "reason": "has images"
+    },
+    {
+      "file": "JBZ-BA100N.png",
+      "product": "Bisphenol A Benzoxazine",
+      "reason": "has images"
+    },
+    {
+      "file": "JBZ-FA100N.png",
+      "product": "Bisphenol F Benzoxazine",
+      "reason": "has images"
+    },
+    {
+      "file": "JBZ-OP100D.png",
+      "product": "Benzoxazine Homopolymer",
+      "reason": "has images"
+    },
+    {
+      "file": "JBZ-OP100I.png",
+      "product": "Benzoxazine Homopolymer",
+      "reason": "has images"
+    },
+    {
+      "file": "JBZ-OP100N.png",
+      "product": "Benzoxazine Homopolymer",
+      "reason": "has images"
+    },
+    {
+      "file": "BMI-1000.png",
+      "product": "BMI-1000",
+      "reason": "has images"
+    },
+    {
+      "file": "BMI-2300.png",
+      "product": "Oligomeric BMI",
+      "reason": "has images"
+    },
+    {
+      "file": "BMI-3000H.png",
+      "product": "BMI-3000H",
+      "reason": "has images"
+    },
+    {
+      "file": "BMI-4000.png",
+      "product": "Internally Toughened BMI",
+      "reason": "has images"
+    },
+    {
+      "file": "BMI-5100.png",
+      "product": "Alkyl-Substituted BMI",
+      "reason": "has images"
+    },
+    {
+      "file": "BMI-TMH.png",
+      "product": "Flexible Aliphatic BMI",
+      "reason": "has images"
+    },
+    {
+      "file": "DABPA.png",
+      "product": "Reactive Toughener",
+      "reason": "has images"
+    },
+    {
+      "file": "BCF.png",
+      "product": "Methyl-Substituted Cardo Bisphenol",
+      "reason": "has images"
+    },
+    {
+      "file": "BPFL.png",
+      "product": "Cardo Bisphenol",
+      "reason": "has images"
+    },
+    {
+      "file": "DAP-M.png",
+      "product": "Diallyl phthalate monomer",
+      "reason": "has images"
+    }
+  ],
+  "unmatched": [],
+  "errors": []
+}

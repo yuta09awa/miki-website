@@ -1,0 +1,92 @@
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Adamantyl
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Allyl Ethers
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Amines
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Aniline
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Benzoxazine
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Bismaleimide
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Commodity
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Diols
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Epoxide
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Fluorene derivatives
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Methacrylates
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Phthlates
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\product_list.txt
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Toluidine
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates\1-Methylheptyl acrylate(C8).png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates\Allyl Acrylate.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates\BAC-45.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates\Biphenylyl acrylate.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates\Isocetyl acrylate(C16).png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates\n-Hexyl acrylate(C6).png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates\Phenyl acrylate.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Acrylates\Photo-initiator acrylate.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Adamantyl\1-Adamantanecarboxylic acid.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Adamantyl\Adamantane.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Allyl Ethers\AGE.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Allyl Ethers\DADMAC.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Allyl Ethers\Glycerine Monoally.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Allyl Ethers\PETE.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Allyl Ethers\Trimethylolpropane diallyl ether.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\4-Methylhexahydrophthalic anhydride.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\4-PEPA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\6FDA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\a-BPDA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\a-ODPA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\BPAF.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\BPF-PA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\BT-100.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\HHPA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\ODPA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\PA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\s-BPDA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\TAHQ.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\TDA-100.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\THPA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Anhydrides\TMEG-100.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Aniline\4,4 ODA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Aniline\BisA-M.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Aniline\BisA-P.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Benzoxazine\JBZ-BA100N.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Benzoxazine\JBZ-FA100N.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Benzoxazine\JBZ-OP100D.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Benzoxazine\JBZ-OP100I.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Benzoxazine\JBZ-OP100N.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Bismaleimide\BMI-1000.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Bismaleimide\BMI-2300.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Bismaleimide\BMI-3000H.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Bismaleimide\BMI-4000.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Bismaleimide\BMI-5100.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Bismaleimide\BMI-7000.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Bismaleimide\BMI-TMH.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Commodity\3-Chloropropene.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Commodity\DABPA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Diols\DEG.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Diols\MEG.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Diols\TEG.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Epoxide\2386-87-0.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Epoxide\29829-07-0.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Epoxide\E201.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Epoxide\TGMAP.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Epoxide\TGPAP.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Fluorene derivatives\BAFL.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Fluorene derivatives\BAHF.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Fluorene derivatives\BAOFL.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Fluorene derivatives\BAPF.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Fluorene derivatives\BCF.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Fluorene derivatives\BPAF.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Fluorene derivatives\BPFL.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Methacrylates\Biphenylyl methacrylate.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Methacrylates\CTFMA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Methacrylates\Glycerol carbonate methacrylate.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Methacrylates\GMEC.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Methacrylates\MMA.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Phthlates\DAIP-M.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Phthlates\DAIP-Prepolymer.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Phthlates\DAP-M.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Phthlates\DAP-Prepolymer.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Toluidine\DEmT.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Toluidine\DMpT.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Toluidine\EmT.png
+C:\Users\admin\OneDrive\Desktop\Chemical Images\Chemical Images\Toluidine\EoT.png
