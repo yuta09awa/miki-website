@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" aria-label="Adipic acid skeletal structure: HOOC-(CH₂)₄-COOH">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+
+  <!-- ── Carbon backbone (black zigzag) ── -->
+  <!-- Left COOH carbon to C1: HO–C–chain start -->
+  <!-- Points (left to right):
+       A = 100,130  (left COOH carbon)
+       B = 160,90   (C1)
+       C = 230,130  (C2)
+       D = 300,90   (C3)
+       E = 370,130  (C4)
+       F = 430,90   (right COOH carbon)
+  -->
+  <polyline
+    points="100,130 160,90 230,130 300,90 370,130 430,90"
+    fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linejoin="round"
+  />
+
+  <!-- ── Left COOH ── -->
+  <!-- C=O double bond (down-left from A) -->
+  <line x1="100" y1="130" x2="55"  y2="165" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="96"  y1="122" x2="51"  y2="157" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- O label (red) -->
+  <text x="38" y="186" font-size="20" font-weight="bold" fill="#cc0000">O</text>
+
+  <!-- C–OH single bond (left from A, horizontal) -->
+  <line x1="100" y1="130" x2="52" y2="130" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- HO label (red) -->
+  <text x="6" y="136" font-size="20" font-weight="bold" fill="#cc0000">HO</text>
+
+  <!-- ── Right COOH ── -->
+  <!-- C=O double bond (up-right from F) -->
+  <line x1="430" y1="90" x2="475" y2="55" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="434" y1="98" x2="479" y2="63" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- O label (red) -->
+  <text x="480" y="52" font-size="20" font-weight="bold" fill="#cc0000">O</text>
+
+  <!-- C–OH single bond (right from F, horizontal) -->
+  <line x1="430" y1="90" x2="478" y2="90" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- OH label (red) -->
+  <text x="480" y="96" font-size="20" font-weight="bold" fill="#cc0000">OH</text>
+</svg>
