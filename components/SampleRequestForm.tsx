@@ -44,7 +44,7 @@ export default function SampleRequestForm({
       className="rounded-xl border border-slate-200 bg-white p-6 space-y-5"
     >
       <div>
-        <h3 className="text-xl font-bold text-slate-900 mb-1">Request Sample &amp; Documents</h3>
+        <h3 className="text-xl font-bold text-slate-900 mb-1">Requests</h3>
         <p className="text-sm text-slate-600">
           For <span className="font-medium text-slate-900">{productName}</span>
           {productCode && <span className="text-slate-500"> · {productCode}</span>}

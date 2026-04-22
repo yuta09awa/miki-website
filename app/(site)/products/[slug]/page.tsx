@@ -246,12 +246,12 @@ export default async function ProductPage({
           </dl>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link
-              href="/contact"
+            <a
+              href="#request"
               className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded font-medium text-sm"
             >
               Request Quote
-            </Link>
+            </a>
             {product.datasheet?.asset && (
               <a
                 href={product.datasheet.asset.url || '#'}
@@ -432,7 +432,7 @@ export default async function ProductPage({
         </section>
       )}
 
-      <section className="border-t border-slate-200 bg-slate-50">
+      <section id="request" className="border-t border-slate-200 bg-slate-50 scroll-mt-20">
         <div className="mx-auto max-w-4xl px-6 py-12">
           <SampleRequestForm
             productName={product.productName}
