@@ -17,10 +17,10 @@ const client = createClient({
 })
 
 // 1. Upload the SVG as a Sanity image asset
-const svgBuffer = fs.readFileSync('public/products/adipic-acid-structure.svg')
+const svgBuffer = fs.readFileSync('public/products/adipic-acid-structure.png')
 const asset = await client.assets.upload('image', svgBuffer, {
-  filename: 'adipic-acid-structure.svg',
-  contentType: 'image/svg+xml',
+  filename: 'adipic-acid-structure.png',
+  contentType: 'image/png',
 })
 console.log('✓ Uploaded asset:', asset._id)
 
