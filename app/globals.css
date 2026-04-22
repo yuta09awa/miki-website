@@ -16,9 +16,18 @@ body {
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
-/* Official company-title treatment — uses Mongolian Baiti where available,
-   falls back gracefully on systems that don't have it installed. */
+/* Self-hosted Mongolian Baiti — loads for all visitors regardless of OS */
+@font-face {
+  font-family: "Mongolian Baiti";
+  src: url("/fonts/monbaiti.woff2") format("woff2"),
+       url("/fonts/monbaiti.ttf")   format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Official company-title treatment */
 .font-official {
-  font-family: "Mongolian Baiti", "Noto Serif", Georgia, serif;
+  font-family: "Mongolian Baiti", Georgia, serif;
   letter-spacing: 0.01em;
 }
