@@ -73,12 +73,12 @@ export default function Hero({hero}: {hero?: HeroProps}) {
           )}
         </div>
         {hero.pillars && hero.pillars.length > 0 && (
-          <div className="grid grid-cols-3 gap-4 md:flex md:flex-wrap md:gap-8 md:justify-start">
+          <div className="flex gap-6 md:gap-8">
             {hero.pillars.map((p, i) => {
               const Icon = pickIcon(p)
               return (
-                <div key={i} className="text-center">
-                  <div className="w-10 h-10 md:w-12 md:h-12 mx-auto mb-2 rounded-full bg-slate-700/60 grid place-items-center">
+                <div key={i} className="text-center flex-1 md:flex-none md:w-24">
+                  <div className="w-10 h-10 md:w-12 md:h-12 mx-auto mb-2 md:mb-3 rounded-full bg-slate-700/60 grid place-items-center">
                     <Icon className="w-5 h-5 md:w-6 md:h-6 text-white" strokeWidth={1.75} />
                   </div>
                   <div className="text-xs md:text-sm font-medium text-blue-300 leading-tight">{p.title}</div>
