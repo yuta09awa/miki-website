@@ -54,11 +54,11 @@ export default function Hero({hero}: {hero?: HeroProps}) {
         {hero.subtitle && (
           <p className="text-lg text-slate-200 max-w-2xl mb-8 leading-relaxed">{hero.subtitle}</p>
         )}
-        <div className="flex flex-wrap gap-4 mb-16">
+        <div className="flex flex-col sm:flex-row gap-3 mb-16">
           {hero.primaryCta?.href && (
             <Link
               href={hero.primaryCta.href}
-              className="bg-blue-600 hover:bg-blue-500 transition px-6 py-3 rounded-md font-medium text-sm"
+              className="bg-blue-600 hover:bg-blue-500 transition px-6 py-3 rounded-md font-medium text-sm text-center"
             >
               {hero.primaryCta.label}
             </Link>
@@ -66,7 +66,7 @@ export default function Hero({hero}: {hero?: HeroProps}) {
           {hero.secondaryCta?.href && (
             <Link
               href={hero.secondaryCta.href}
-              className="bg-slate-700/60 hover:bg-slate-700 transition px-6 py-3 rounded-md font-medium text-sm"
+              className="bg-slate-700/60 hover:bg-slate-700 transition px-6 py-3 rounded-md font-medium text-sm text-center"
             >
               {hero.secondaryCta.label}
             </Link>
