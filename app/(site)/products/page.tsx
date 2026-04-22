@@ -4,6 +4,7 @@ import type {Metadata} from 'next'
 import {client} from '@/sanity/lib/client'
 import {productsListQuery} from '@/sanity/lib/queries'
 import {urlFor} from '@/sanity/lib/image'
+import ProductsFilterSidebar from '@/components/ProductsFilterSidebar'
 
 export const metadata: Metadata = {
   title: 'Product Catalog | Miki Sangyo USA',
@@ -78,17 +79,6 @@ export default async function ProductsPage({
   const sortedTypes = [...typeCounts.entries()].sort((a, b) => b[1] - a[1])
   const topTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 20)
 
-  const TYPE_LABEL: Record<string, string> = {
-    chemical: 'Chemical / Monomer',
-    optical: 'Optical Material',
-    filter: 'Filter Media',
-    coating: 'Coating',
-    battery: 'Battery Material',
-  }
-
-  const isActiveCategory = (c: string) =>
-    !!category && slugify(category) === slugify(c)
-
   return (
     <div className="bg-white">
       <div className="border-b border-slate-200 bg-slate-50">
@@ -110,95 +100,14 @@ export default async function ProductsPage({
       </div>
 
       <div className="mx-auto max-w-7xl px-6 py-12 grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-10">
-        <aside className="space-y-8">
-          <form action="/products" method="get">
-            <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wide mb-2">
-              Search
-            </label>
-            <input
-              type="search"
-              name="q"
-              defaultValue={q ?? ''}
-              placeholder="Name, code, CAS…"
-              className="w-full border border-slate-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-blue-500"
-            />
-          </form>
-
-          {sortedTypes.length > 1 && (
-            <div>
-              <h3 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-3">
-                Product Type
-              </h3>
-              <ul className="space-y-1.5 text-sm">
-                {sortedTypes.map(([t, n]) => (
-                  <li key={t}>
-                    <Link
-                      href={`/products?category=${encodeURIComponent(t)}`}
-                      className="flex justify-between text-slate-600 hover:text-blue-600"
-                    >
-                      <span>{TYPE_LABEL[t] ?? t}</span>
-                      <span className="text-slate-400">{n}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
-          {sortedCategories.length > 0 && (
-            <div>
-              <h3 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-3">
-                Categories
-              </h3>
-              <ul className="space-y-1.5 text-sm max-h-80 overflow-y-auto pr-2">
-                {sortedCategories.map(([c, n]) => {
-                  const active = isActiveCategory(c)
-                  return (
-                    <li key={c}>
-                      <Link
-                        href={active ? '/products' : `/products?category=${encodeURIComponent(c)}`}
-                        className={`flex justify-between rounded px-2 py-1 -mx-2 ${
-                          active
-                            ? 'bg-blue-50 text-blue-700 font-medium'
-                            : 'text-slate-600 hover:text-blue-600 hover:bg-slate-50'
-                        }`}
-                      >
-                        <span className="truncate">{c}</span>
-                        <span className="text-slate-400">{n}</span>
-                      </Link>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-          )}
-
-          {topTags.length > 0 && (
-            <div>
-              <h3 className="text-xs font-semibold text-slate-700 uppercase tracking-wide mb-3">
-                Applications
-              </h3>
-              <div className="flex flex-wrap gap-1.5">
-                {topTags.map(([t, n]) => {
-                  const active = tag === t
-                  return (
-                    <Link
-                      key={t}
-                      href={active ? '/products' : `/products?tag=${encodeURIComponent(t)}`}
-                      className={`text-xs px-2 py-1 rounded-full transition ${
-                        active
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-blue-50 text-blue-700 hover:bg-blue-100'
-                      }`}
-                    >
-                      {t} <span className="opacity-60">{n}</span>
-                    </Link>
-                  )
-                })}
-              </div>
-            </div>
-          )}
-        </aside>
+        <ProductsFilterSidebar
+          sortedCategories={sortedCategories}
+          sortedTypes={sortedTypes}
+          topTags={topTags}
+          q={q}
+          tag={tag}
+          category={category}
+        />
 
         <div>
         {filtered.length === 0 ? (
