@@ -93,7 +93,7 @@ export default function HeaderNav({siteName, menus}: {siteName: string; menus: N
           ))}
 
           <Link
-            href="/about"
+            href="/#about"
             className="px-3 py-2 text-sm text-slate-700 hover:text-blue-600 transition-colors"
           >
             About
@@ -177,7 +177,7 @@ export default function HeaderNav({siteName, menus}: {siteName: string; menus: N
             ))}
             <div className="border-t border-slate-100 pt-3 space-y-2">
               <Link
-                href="/about"
+                href="/#about"
                 onClick={() => setMobileOpen(false)}
                 className="block text-sm text-slate-700 hover:text-blue-600 py-1"
               >
