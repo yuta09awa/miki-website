@@ -46,6 +46,12 @@ export const productBySlugQuery = groq`*[_type == "product" && slug.current == $
 
 export const productSlugsQuery = groq`*[_type == "product" && defined(slug.current)][].slug.current`
 
+// Returns { category: slug, ... } and { tag: slug, ... } for facets with exactly 1 product
+export const singleProductFacetsQuery = groq`{
+  "categories": *[_type == "product" && defined(category)]{category, "slug": slug.current},
+  "tags": *[_type == "product" && defined(applicationTags)]{"tags": applicationTags, "slug": slug.current}
+}`
+
 export const productsListQuery = groq`*[_type == "product" && defined(slug.current)] | order(productName asc){
   _id, productName, productCode, "slug": slug.current, category, casNumber,
   descriptionShort, applicationTags, featureBullets, images, productType

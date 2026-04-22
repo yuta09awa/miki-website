@@ -4,7 +4,7 @@ import {notFound} from 'next/navigation'
 import {PortableText} from '@portabletext/react'
 import type {Metadata} from 'next'
 import {client} from '@/sanity/lib/client'
-import {productBySlugQuery, productSlugsQuery} from '@/sanity/lib/queries'
+import {productBySlugQuery, productSlugsQuery, singleProductFacetsQuery} from '@/sanity/lib/queries'
 import {urlFor} from '@/sanity/lib/image'
 import SampleRequestForm from '@/components/SampleRequestForm'
 
@@ -86,8 +86,39 @@ export default async function ProductPage({
   params: Promise<{slug: string}>
 }) {
   const {slug} = await params
-  const product = await client.fetch<Product | null>(productBySlugQuery, {slug})
+  const [product, facets] = await Promise.all([
+    client.fetch<Product | null>(productBySlugQuery, {slug}),
+    client.fetch<{
+      categories: {category: string; slug: string}[]
+      tags: {tags: string[]; slug: string}[]
+    }>(singleProductFacetsQuery),
+  ])
   if (!product) notFound()
+
+  // Build direct-link maps for facets with exactly 1 product
+  const catCounts = new Map<string, number>()
+  const catSlug = new Map<string, string>()
+  for (const {category, slug: s} of facets.categories) {
+    catCounts.set(category, (catCounts.get(category) ?? 0) + 1)
+    catSlug.set(category, s)
+  }
+  const tagCounts = new Map<string, number>()
+  const tagSlug = new Map<string, string>()
+  for (const {tags, slug: s} of facets.tags) {
+    for (const t of tags ?? []) {
+      tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1)
+      tagSlug.set(t, s)
+    }
+  }
+  const categoryHref = product.category
+    ? catCounts.get(product.category) === 1
+      ? `/products/${catSlug.get(product.category)}`
+      : `/products?category=${encodeURIComponent(product.category)}`
+    : '/products'
+  const tagHref = (t: string) =>
+    tagCounts.get(t) === 1
+      ? `/products/${tagSlug.get(t)}`
+      : `/products?tag=${encodeURIComponent(t)}`
 
   const heroImg = product.images?.[0]
   const specs =
@@ -142,10 +173,7 @@ export default async function ProductPage({
           {product.category && (
             <>
               <span className="mx-2">/</span>
-              <Link
-                href={`/products?category=${encodeURIComponent(product.category)}`}
-                className="hover:text-blue-600"
-              >
+              <Link href={categoryHref} className="hover:text-blue-600">
                 {product.category}
               </Link>
             </>
@@ -193,7 +221,7 @@ export default async function ProductPage({
         <div>
           {product.category && (
             <Link
-              href={`/products?category=${encodeURIComponent(product.category)}`}
+              href={categoryHref}
               className="inline-block text-xs font-medium text-blue-600 bg-blue-50 px-2.5 py-1 rounded mb-3 hover:bg-blue-100"
             >
               {product.category}
@@ -363,7 +391,7 @@ export default async function ProductPage({
               {product.applicationTags.map((t) => (
                 <Link
                   key={t}
-                  href={`/products?tag=${encodeURIComponent(t)}`}
+                  href={tagHref(t)}
                   className="inline-block bg-blue-50 hover:bg-blue-100 text-blue-700 text-sm px-3 py-1.5 rounded-full transition"
                 >
                   {t}

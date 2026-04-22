@@ -10,6 +10,8 @@ type Props = {
   q?: string
   tag?: string
   category?: string
+  categoryDirectSlugs?: Record<string, string>
+  tagDirectSlugs?: Record<string, string>
 }
 
 const slugify = (s: string) =>
@@ -30,6 +32,8 @@ export default function ProductsFilterSidebar({
   q,
   tag,
   category,
+  categoryDirectSlugs = {},
+  tagDirectSlugs = {},
 }: Props) {
   const activeCategory = (c: string) =>
     !!category && slugify(category) === slugify(c)
@@ -109,10 +113,16 @@ export default function ProductsFilterSidebar({
             <ul className="space-y-1.5 text-sm max-h-80 overflow-y-auto pr-2">
               {sortedCategories.map(([c, n]) => {
                 const active = activeCategory(c)
+                const directSlug = categoryDirectSlugs[c]
+                const href = active
+                  ? '/products'
+                  : directSlug
+                    ? `/products/${directSlug}`
+                    : `/products?category=${encodeURIComponent(c)}`
                 return (
                   <li key={c}>
                     <Link
-                      href={active ? '/products' : `/products?category=${encodeURIComponent(c)}`}
+                      href={href}
                       className={`flex justify-between rounded px-2 py-1 -mx-2 ${
                         active
                           ? 'bg-blue-50 text-blue-700 font-medium'
@@ -137,10 +147,16 @@ export default function ProductsFilterSidebar({
             <div className="flex flex-wrap gap-1.5">
               {topTags.map(([t, n]) => {
                 const active = tag === t
+                const directSlug = tagDirectSlugs[t]
+                const href = active
+                  ? '/products'
+                  : directSlug
+                    ? `/products/${directSlug}`
+                    : `/products?tag=${encodeURIComponent(t)}`
                 return (
                   <Link
                     key={t}
-                    href={active ? '/products' : `/products?tag=${encodeURIComponent(t)}`}
+                    href={href}
                     className={`text-xs px-2 py-1 rounded-full transition ${
                       active
                         ? 'bg-blue-600 text-white'

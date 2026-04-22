@@ -70,14 +70,35 @@ export default async function ProductsPage({
   const categoryCounts = new Map<string, number>()
   const typeCounts = new Map<string, number>()
   const tagCounts = new Map<string, number>()
+  // Track one slug per category/tag so we can link directly when count === 1
+  const categorySlug = new Map<string, string>()
+  const tagSlug = new Map<string, string>()
   for (const p of all) {
-    if (p.category) categoryCounts.set(p.category, (categoryCounts.get(p.category) ?? 0) + 1)
+    if (p.category) {
+      categoryCounts.set(p.category, (categoryCounts.get(p.category) ?? 0) + 1)
+      categorySlug.set(p.category, p.slug)
+    }
     if (p.productType) typeCounts.set(p.productType, (typeCounts.get(p.productType) ?? 0) + 1)
-    for (const t of p.applicationTags ?? []) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1)
+    for (const t of p.applicationTags ?? []) {
+      tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1)
+      tagSlug.set(t, p.slug)
+    }
   }
   const sortedCategories = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1])
   const sortedTypes = [...typeCounts.entries()].sort((a, b) => b[1] - a[1])
   const topTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 20)
+
+  // Direct-link maps: only populated when that facet has exactly 1 product
+  const categoryDirectSlugs: Record<string, string> = Object.fromEntries(
+    [...categoryCounts.entries()]
+      .filter(([, n]) => n === 1)
+      .map(([c]) => [c, categorySlug.get(c)!])
+  )
+  const tagDirectSlugs: Record<string, string> = Object.fromEntries(
+    [...tagCounts.entries()]
+      .filter(([, n]) => n === 1)
+      .map(([t]) => [t, tagSlug.get(t)!])
+  )
 
   return (
     <div className="bg-white">
@@ -107,6 +128,8 @@ export default async function ProductsPage({
           q={q}
           tag={tag}
           category={category}
+          categoryDirectSlugs={categoryDirectSlugs}
+          tagDirectSlugs={tagDirectSlugs}
         />
 
         <div>
